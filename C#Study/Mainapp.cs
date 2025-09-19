@@ -43,7 +43,7 @@ namespace C_Study
 
             /*// 03.signedUnsigned
             byte a = 255;
-            sbyte b = (sbyte)a;
+            sbyte b = (sbyte)a; // 2의 보수 표현법에 의해 -1로 변환됨 (음수를 표현할 때 2의 보수 사용)
 
             WriteLine($"a = {a}, b = {b}"); // b = -1*/
 
@@ -53,7 +53,8 @@ namespace C_Study
             WriteLine(a);
 
             a = a + 1; // 오버플로우 발생
-
+            
+            // 담을 수 있는 비트수를 넘어가면 오른쪽을 채택하고 왼쪽의 넘쳐흐름 비트는 버리기때문에 앞의 1이 날라가고 가장 낮은 수가 됨.
             WriteLine(a);*/
         }
     }
