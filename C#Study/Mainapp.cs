@@ -92,6 +92,13 @@ namespace C_Study
             Write(d);
             Write(e);
             WriteLine();*/
+
+            /*// 03.String
+            string a = "안녕하세요";
+            string b = "반갑습니다";
+
+            WriteLine(a);
+            WriteLine(b);*/
         }
     }
 }
